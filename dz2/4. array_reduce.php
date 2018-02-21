@@ -15,7 +15,7 @@ foreach ($name as $valueName) {
 
 $f = function ($carry, $item )
 {
-    $carry += substr_count($item, 'Ё') + substr_count($item, 'ё') / strlen($item);
+    $carry += (substr_count($item, 'Ё') + substr_count($item, 'ё')) / strlen($item);
     return $carry;
 };
 
