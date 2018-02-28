@@ -28,7 +28,7 @@ foreach ($list as $image) { ?>
 
 <form action="/dz3/3.gal_photo/index.php" method="post" enctype="multipart/form-data">
     Выберите файл: <input type="file" name="picture"><br>
-    <button type="submit">Добавить в галерею</button>
+    <button type="submit">Загрузить файл</button>
 </form>
 </body>
 </html>
